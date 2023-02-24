@@ -16,7 +16,7 @@ ActiveRecord::Schema.define(version: 2023_02_22_180425) do
     t.string "title"
     t.date "release_date"
     t.string "director"
-    t.string "lead_actor_actress"
+    t.string "lead"
     t.boolean "in_theaters"
     t.json "attributes_hash"
     t.datetime "created_at", precision: 6, null: false
