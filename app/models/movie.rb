@@ -32,7 +32,7 @@ class Movie < ActiveRecord::Base
 
   # Return a list of movies released after 2002
   def self.find_movies_after_2002
-    where("release_date > ?", Date.new(2002)).to_a
+    where("release_date > 2002").to_a
   end
   
   def update_with_attributes(attributes)
